@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body>
+    
+<h1>Heh</h1>
+<p id="response"></p>
+
+<p id="question">
+    What is your name?
+</p>
+
+<p id="birthdayResponse">
+</p>
+
+<form id="answerForm">
+    <label>Answer</label>
+    <input type="text" placeholder="enter name" id="answer" value="">
+
+    <button type="submit">Submit</button>
+</form>
+
+<br>
+
+<form id="birthdayForm">
+    <label for="day">Day</label>
+    <input type="number" placeholder="Enter day" id="day" value="1" max="31" min="1">
+    <br>
+
+    <label for="month">Month</label>
+    <select name="month" id="month" value="January">
+        <option value="January">January</option>
+        <option value="Febuary">Febuary</option>
+        <option value="March">March</option>
+    </select>
+    <br>
+
+    <label for="year">Year</label>
+    <input type="number" placeholder="Enter year" id="year" value="2000" max="2023" min="1900">
+    <br>
+
+    <button type="submit">Submit</button>
+
+</form>
+
+<script type="text/javascript" src="base.js"></script>
+
+</body>
+</html>
